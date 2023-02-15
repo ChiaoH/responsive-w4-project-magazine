@@ -1,0 +1,9 @@
+:root {
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Alegreya", serif;
+}
+
+body {
+  font-size: 72px;
+  font-family: var(--secondary-font);
+}
