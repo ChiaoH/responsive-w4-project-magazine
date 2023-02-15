@@ -4,6 +4,27 @@
 }
 
 body {
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+h1 {
   font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 98px;
+}
+
+h2 {
+  font-size: 28px;
   font-family: var(--secondary-font);
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.hero-section {
+  margin-top: 135px;
+  background-image: url("images/overlay.png");
+  padding: 58px;
+  color: white;
 }
