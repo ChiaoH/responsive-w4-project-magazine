@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Alegreya", serif;
+  --secondary-color: #272142;
 }
 
 body {
@@ -27,4 +28,25 @@ h2 {
   background-image: url("images/overlay.png");
   padding: 58px;
   color: white;
+  width: 1440px;
+  height: 265px;
+  object-fit: cover;
+}
+
+.container img {
+  width: 560px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.container h3 {
+  text-align: left;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.second-column {
+  position: relative;
 }
