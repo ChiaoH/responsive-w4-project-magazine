@@ -50,3 +50,17 @@ h2 {
 .second-column {
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    width: 100%;
+  }
+  .hero-section h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .hero-section h2 {
+    font-size: 18px;
+    line-height: 1;
+  }
+}
